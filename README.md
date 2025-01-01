@@ -27,7 +27,7 @@ cmake -B build
 cmake --help    查看 CMake 支持的生成器 MinGW 为生成器 
 ```
 
-### 指定编译器
+### windows指定编译器
 windows下使用 Visual Studio编译器。 这样会生成 Visual Studio 的 .sln 文件，而不是 Makefile
 
 ```
