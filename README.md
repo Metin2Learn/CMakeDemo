@@ -17,9 +17,7 @@ cmake -version
 
 ### 使用
 
-执行cmake .进行编译生成makefile
-但 Windows 上常用的构建工具是 Visual Studio，
-而不是 GNU Make，因此默认情况下，CMake 会为 Visual Studio 生成 .sln 和 .vcxproj 文件，而不是 Makefile
+执行 "cmake ." 进行编译生成makefile
 ```
 cmake .       当前目录
 cmake ..      上级目录
@@ -30,7 +28,8 @@ cmake --help    查看 CMake 支持的生成器 MinGW 为生成器
 ```
 
 ### 指定编译器
-    windows下使用 Visual Studio编译器。 这样会生成 Visual Studio 的 .sln 文件，而不是 Makefile
+windows下使用 Visual Studio编译器。 这样会生成 Visual Studio 的 .sln 文件，而不是 Makefile
+
 ```
 cmake -G "MinGW Makefiles" -B build -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++
 cmake --build build
