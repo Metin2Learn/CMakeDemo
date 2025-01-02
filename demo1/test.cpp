@@ -41,5 +41,7 @@ int main()
 	t1->set(1, "test");
 	cout << "id:" << t1->getId() << endl;
 	cout << "name:" << t1->getName() << endl;
+	
+	std::cin.get();
 	return 0;
 }

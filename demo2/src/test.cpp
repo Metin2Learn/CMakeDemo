@@ -36,6 +36,7 @@ int _id;
 
 int main()
 {
+
 shared_ptr<Test>t1 = make_shared<Test>();
 shared_ptr<Hello>t2 = make_shared<Hello>();
 t1->set(1,"test");
@@ -45,6 +46,5 @@ t2->setVal(10);
 cout<<"val:"<<t2->getVal()<<endl;
 
 std::cin.get();
-	
 return 0;
 }

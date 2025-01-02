@@ -41,3 +41,9 @@ cmake --build .   或  make 将上步生成的Makefile等文件生成 可执行�
 cmake --build build
 cmake --build .
 ```
+
+### MinGW  使用makefile 直接编译
+
+```
+make
+```
